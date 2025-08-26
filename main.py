@@ -1,3 +1,7 @@
+from Subject import WeatherData
+from displays import CurrentConditionsDisplay, StatisticsDisplay, ForecastDisplay
+
+
 def main():
     weather_data = WeatherData()
 

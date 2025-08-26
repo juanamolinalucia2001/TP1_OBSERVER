@@ -1,3 +1,5 @@
+from clases_base_abstractas import Observer, Subject
+
 class WeatherData(Subject):
     def __init__(self):
         self._observers = []
