@@ -15,7 +15,7 @@ class Subject(ABC):
 
 class Observer(ABC):
     @abstractmethod
-    def update(self, temperature: float, humidity: float, pressure: float):
+    def update(self): #ya no recibe mas estos datos -> temperature: float, humidity: float, pressure: float
         pass
 
 class DisplayElement(ABC):
